@@ -1,0 +1,19 @@
+# Gerador de QR Code
+
+Este projeto consiste em um gerador de QR Codes em formato SVG a partir de informações de produtos fornecidas em um arquivo JSON. O QR Code gerado pode ser utilizado em diversas aplicações, como etiquetas de produtos, boletos, entre outros.
+
+## Tecnologias Utilizadas
+
+- Node.js
+- Pacote `qrcode` para geração de QR Codes
+- Sistema de arquivos (fs) do Node.js para manipulação de arquivos
+
+## Como Usar
+
+### Pré-requisitos
+
+- Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+- Instale o pacote necessário com o seguinte comando:
+
+```bash
+npm install qrcode
